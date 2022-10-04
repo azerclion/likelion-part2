@@ -54,6 +54,8 @@ copy and paste at github/settings/SSH and GPG keys
 - git merge
 
 ```zsh
+    git checkout main
+    git merge branchName
 
 
 ```
