@@ -55,9 +55,7 @@ copy and paste at github/settings/SSH and GPG keys
 
 ```zsh
     git checkout main
-    git merge branchName
-
-
+    git merge branchName // incomming 하고 commit 해야 그래프가 합쳐짐
 ```
 
 - git rebase
