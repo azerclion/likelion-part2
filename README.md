@@ -36,5 +36,19 @@ copy and paste at github/settings/SSH and GPG keys
 
 - git has 3 state (modified, staged, committed)
 
-* git remote add origin main / origin은 별칭이라 다른이름으로 사용해도 됨..
+* git remote add origin main / origin은 별칭입니다. 다른 이름으로 사용해도 된다는 뜻입니다.
 * git push origin main
+* git reset build.json / reset은..어떨때 쓰는거지?
+
+* git branch
+
+```zsh
+    git branch branchName
+    git branch -l // 브랜치 종류 리스트
+    git checkout dev
+```
+
+- git checkout
+- git merge
+- git rebase
+- git rebase conflict
