@@ -27,6 +27,11 @@ git config --global --replace-all core.editor "code --wait"
 #
 git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short"
 
+##
+❯ ssh-keygen
+❯ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1y.....
+copy and paste at github/settings/SSH and GPG keys
 ```
 
 - git has 3 state (modified, staged, committed)
