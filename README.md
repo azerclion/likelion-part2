@@ -87,4 +87,7 @@ git checkout main
 git checkout main
 git merge hotfix
 // main으로 이동해서 hotfix를 merge하면...일짜로 가지 치기 없이 merge.(요게...fastmerge라는 것인데...훔.)
+
+// github Actions
+// Figma token
 ```
