@@ -59,5 +59,32 @@ copy and paste at github/settings/SSH and GPG keys
     git commit ... //
 ```
 
+```zsh
+ current // main 에 것을 선택
+ incomming // dev것을 선택
+ both // 모두 선택
+
+ conflict를 해결하고 add 하고 commit 도 해줘야 함
+```
+
 - git rebase
 - git rebase conflict
+
+```zsh
+// main 에서 작업하는 것임
+git branch -d dev
+// dev 블랜치 삭제
+git checkout hotfix
+// 파일 수정 & add & commit
+git checkout main
+// 파일 수정 & add & commit
+// 분기가 두개로 갈라져 있는 상태
+// hotfix로 이동
+// git checkout hotfix
+// git rebase main
+// hotfix의 분기의 시작을 main의 최신커밋으로 hotfix의 위치가 이동(reBase)
+// 이게...뭐...좀...이상헌디....이동되면, main의 변경된 최신커밋까지 자동으로 hotfix에 반영?...conflick안남?
+git checkout main
+git merge hotfix
+// main으로 이동해서 hotfix를 merge하면...일짜로 가지 치기 없이 merge.(요게...fastmerge라는 것인데...훔.)
+```
