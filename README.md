@@ -35,3 +35,6 @@ copy and paste at github/settings/SSH and GPG keys
 ```
 
 - git has 3 state (modified, staged, committed)
+
+* git remote add origin main / origin은 별칭이라 다른이름으로 사용해도 됨..
+* git push origin main
