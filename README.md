@@ -45,7 +45,9 @@ copy and paste at github/settings/SSH and GPG keys
 ```zsh
     git branch branchName
     git branch -l // 브랜치 종류 리스트
-    git checkout dev
+    git checkout dev // git Head가 main에서 dev로 이동
+
+    git checkout -b branchName // ?
 ```
 
 - git checkout
