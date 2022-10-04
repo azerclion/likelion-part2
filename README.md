@@ -52,5 +52,10 @@ copy and paste at github/settings/SSH and GPG keys
 
 - git checkout
 - git merge
+
+```zsh
+
+```
+
 - git rebase
 - git rebase conflict
