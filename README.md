@@ -94,7 +94,7 @@ git checkout -b def
 git branch -l
 // dev가 checkout된 상태
 git rebase main
-내용을 수정하고
+내용을 수정하고// 파일로 열리는거...수정하던지 어쨌던지...save하고 닫야야...
 git add .
 git commit -m "뭐라뭐라"
 git rebase --continue
