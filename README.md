@@ -88,6 +88,18 @@ git checkout main
 git merge hotfix
 // main으로 이동해서 hotfix를 merge하면...일짜로 가지 치기 없이 merge.(요게...fastmerge라는 것인데...훔.)
 
+
+main이 checkout 된 상태에서
+git checkout -b def
+git branch -l
+// dev가 checkout된 상태
+git rebase main
+내용을 수정하고
+git add .
+git commit -m "뭐라뭐라"
+git rebase --continue
+
+
 // github Actions
 // Figma token
 ```
